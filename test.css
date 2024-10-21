@@ -1,0 +1,226 @@
+:root {
+    --background:rgb(253, 253, 253) ;
+    --primary: rgb(59, 30, 84);
+    --accent:rgb(155, 126, 189) ;
+    --text:rgb(31, 31, 31) ;
+}
+
+/* rgb(59, 30, 84)
+rgb(155, 126, 189)
+rgb(212, 190, 228)
+rgb(238, 238, 238) */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background);
+    margin: 0 12%;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(129, 105, 105);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border: 5px solid black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+li a {
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 20px 0 20px;
+
+} 
+
+li button {
+    float: left;
+    font-size: 24px;
+    margin: 0 20px 0 20px;
+    width: 100px;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Main {
+    font-family: Arial, sans-serif;
+    margin: 0 12%;
+}   
+
+.Header {
+    display: flex;
+    height: 500px;
+    margin: 0 12%;
+    background-color: #333;
+}
+
+.LeftHeader {
+    display: flex;
+    flex: 1;
+    background-color: #bebebe; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contentArea button {
+   height: 50px;
+   width: 150px;
+   background-color: #333;
+   color: white;
+   font-weight: 100;
+}
+.RightHeader {
+    flex: 2;
+}
+
+
+.mainPage {
+    background-color: #727070;
+    height: 800px;
+    width: auto;
+    text-align: center;
+}
+
+.innerMain {
+    padding: 25px;
+}
+.innerMain p {
+    margin: 2% 20% 2% 20%;
+}
+
+.mainMiddle {
+    margin: 0 50px;
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+}
+.mainLeft{ 
+    width: 600px;   
+    height: 500px;
+    background-color: #333;
+    align-items: center;
+    margin: 0 1%;
+}
+.mainRight {
+    width: 600px;
+    height: 500px;
+    background-color: #312727;
+    align-items: center;
+    margin: 0 1%;
+    
+}
+
+.mainRightGrid {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 75px;
+}
+
+.partners {
+    
+}
+
+.partners .mainRightGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+    margin: 0 ;
+    text-align: center;
+    padding: 0;
+}
+
+.gridContent {
+    padding: 5% 0;
+}
+
+.gridContent1 {
+
+}
+
+.partners .gridContent {
+    
+}
+
+.partners img {
+    width: 250px;
+    height: 250px;
+}
+.partnerGrid {
+
+}
+
+.faq {
+
+}
+
+.container {
+    background-color: rgb(58, 58, 58);
+    margin: 0 10rem ;
+    display: flex;
+    height: 300px;
+    align-items: center;
+    border-radius: 10mm;
+} 
+
+.leftContainer {
+    flex: 2;
+    color: white;
+}
+
+.rightContainer {
+    flex: 1;
+}
+
+.leftContainer h1, .leftContainer p {
+    margin: 0 5%;
+}
+.rightContainer button {
+    width: 100px;   
+    height:50px;
+}
+
+footer {
+    padding: 50px 0px;
+    background-color: aqua;
+}
+
+.footerGrid {
+    margin: 2.5% 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create a 3-column grid */
+    gap: 50px; /* Adjust gap between grid items */
+    font-size: 18px;
+}
+
+.footerContent ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 5%; 
+    text-align: center;
+}
+
+.footerContent li {
+    display: block;
+    float: none;
+}
+
+.footerContent li {
+    margin-bottom: 10px; /* Add spacing between list items if needed */
+}

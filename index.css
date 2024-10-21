@@ -1,0 +1,107 @@
+/* General Reset */
+
+:root {
+    --backgroundColor: #3b3b3b;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: var(--backgroundColor);
+}
+
+nav {
+    height: 100px;
+    background-color: rgb(129, 105, 105);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+  
+}
+
+li, a {
+    text-decoration: none;
+    float: left;
+    font-size: 24px;
+    color: white;
+    margin: 0 20px 0 20px;
+
+} 
+
+.Budi {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height layout */
+}
+
+.Main {
+    display: flex;
+    width: 100%; /* Full width */
+    max-width: 1800px; /* Max width for large screens */
+    gap: 50px; /* Add space between columns */
+    padding: 20px;
+}
+
+/* Left Section */
+.divLeft {
+    flex: 1; /* Takes up 1 part of the flexbox */
+    padding: 20px;
+    background-color: #d3d3d3;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column; /* Stack imgText and imgBox vertically */
+    align-items: center;
+    position: relative; /* Allows positioning of imgText */
+}
+
+/* imgText styling */
+.imgText {
+    margin-bottom: 20px; /* Adds space between text and image */
+    text-align: center;
+}
+
+/* imgBox styling */
+.divLeft img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover; /* Ensures image covers its box without distortion */
+}
+
+/* Right Section */
+.div1 {
+    flex: 2; /* Takes up 2 parts */
+    display: flex;
+    flex-direction: column;
+    gap: 50px; /* Add space between div1 and div2 */
+    
+    height: 100%;
+}
+
+/* Bottom right section (div2) */
+.div2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+}
+
+.div1 h1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.div2 h1 {
+    justify-content: center;
+    align-items: center;
+}
